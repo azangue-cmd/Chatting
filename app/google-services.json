@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "164909502892",
+    "project_id": "kottlin--chat-app",
+    "storage_bucket": "kottlin--chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164909502892:android:6ae8104eaa227905c82a09",
+        "android_client_info": {
+          "package_name": "com.example.chatting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164909502892-qug78bq9hsgi11okvb0stm4lq3dj0gbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatting",
+            "certificate_hash": "8b22ce20d5982a17d0d3b9c6449ec562975d2619"
+          }
+        },
+        {
+          "client_id": "164909502892-tfinke8ika4nhsbbu85a1cr7q95vvngn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsUh1QPuqpw4lKG7lSZ8J6PrzcTzJOSs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164909502892-tfinke8ika4nhsbbu85a1cr7q95vvngn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

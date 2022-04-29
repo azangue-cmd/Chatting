@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#f7f7f7"
+    android:layout_gravity="center">
+
+    <TextView
+        android:text="You're logged in as"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold|normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/phonetv"
+
+        android:textSize="16sp"
+        android:textStyle="bold|normal"
+        android:layout_marginTop="10dp"
+        android:textColor="#777777"
+        android:text="Phone Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:text="Logout"
+        android:padding="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!--
+
+    <ImageView
+        android:layout_width="265dp"
+        android:layout_height="233dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/log" />
+
+    <TextView
+        android:id="@+id/phoneLbe"
+        android:text="Verify +237 code"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|normal"
+        android:textColor="#1532A1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Enter the OTP code to verify phone number"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:textAlignment="center"
+        android:textSize="13sp"
+        android:textColor="#5C3C2F"
+        android:layout_width="match_parent"
+        android:textStyle="bold|normal"
+        android:layout_height="wrap_content"/>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/codeLl"
+            android:layout_width="431dp"
+            android:layout_height="196dp"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <EditText
+                android:id="@+id/edtCode"
+                android:layout_width="355dp"
+                android:layout_height="45dp"
+                android:background="@drawable/background_shape"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/resendCode"
+                style="@style/TextAppearance.MaterialComponents.Caption"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:scrollbarSize="13sp"
+                android:text="@string/didn_t_get_otp_resend_code"
+                android:textAlignment="center"
+                android:textColor="#5C3C2F"
+                android:textStyle="bold|normal" />
+
+            <Button
+                android:id="@+id/btnSubmitCode"
+                android:layout_width="351dp"
+                android:layout_height="61dp"
+                android:backgroundTint="#6284DA"
+                android:text="Continue"
+                android:textAllCaps="true"
+                android:textSize="16sp"
+                android:textStyle="bold|normal" />
+
+        </LinearLayout>
+
+        -->
+
+
+
+</LinearLayout>
